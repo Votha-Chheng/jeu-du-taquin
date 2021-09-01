@@ -1,0 +1,31 @@
+.casse-tete{
+    border: 1px solid white;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 500;
+     height:400px;
+     width:400px;
+  }
+  
+.piece,.piece-image{
+  border:1px solid whitesmoke;
+  position: absolute;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  
+  &.empty{
+    border: none;
+  }
+}
+.piece-image{
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+
+}
+img{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}  
